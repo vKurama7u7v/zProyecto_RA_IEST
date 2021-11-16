@@ -1,0 +1,500 @@
+/* Tipografias Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*   VARIABLES   */
+:root{
+    /*Paleta de Colores*/
+    --Naranja: #FF5900;
+    --Cafe: #997747;
+    --Gris: #A8AAAC;
+    --Gris-Claro: #CBCFD3;
+    --Azul-Rey: #042F4B;
+    --Negro: #231F20;
+    --Blanco: #FBFBFB;
+    
+    /*Degradado 1*/
+    --Color-029BD7: #029BD7;
+    --Color-2ACDF8: #2ACDF8;
+
+    /*Degradado 2*/
+    --Color-193F74: #193F74;
+    --Color-025D90: #025D90;
+
+
+    /* Fuentes de Texto */
+    --FontRoboto: 'Roboto', sans-serif;
+    --FontRobotoSlab: 'Roboto Slab', serif;
+    --FontRokkit: 'Rokkitt', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+body{
+    background: #e4e4e4;
+    width: 100%;
+}
+
+/*Medidas Prototipo*/
+.Pantalla{
+    width: 428px;
+    height: 831px;
+    background: var(--Blanco);
+    margin: 30px auto;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.Pantalla__LineaNaranja{
+    width: 100%;
+    height: 65px;
+    background: var(--Naranja);
+}
+
+.Index__Titulo,
+.Titulo{
+    width: 100%;
+}
+
+.Index__Titulo h1,
+.Titulo h1{
+    text-align: center;
+    font-size: 57px;
+    font-family: var(--FontRokkit);
+    font-weight: 600;
+    line-height: 57px;
+    letter-spacing: -2px;
+    color: var(--Naranja);
+    margin-top: 50px;
+}
+
+.Index__Imagen{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.Index__Imagen img{
+    max-width: 100%;
+}
+
+.Botones__Grid{
+    width: 100%;
+    display: Grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+
+.btnNaranja{
+    width: 300px;
+    height: 63px;
+    text-align: center;
+    margin: 0 auto;
+
+    font-size: 20px;
+    font-family: var(--FontRobotoSlab);
+    line-height: 63px;
+    color: #fff;
+    background: var(--Naranja);
+    border-radius: 100px;
+}
+
+.btnNaranja:hover{
+    box-shadow: 10px 10px var(--Gris-Claro);
+}
+
+.Titulo h1{
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    margin-top: 20px;
+}
+
+.Titulo a{
+    color: var(--Azul-Rey);
+}
+
+.Titulo a span{
+    font-size: 2.5rem;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.Formulario{
+    width: 100%;
+}
+
+.AlumnoMaestro{
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+}
+
+.Maestro,
+.Alumno{
+    width: 100%;
+    height: 55px;
+    text-align: center;
+
+    font-size: 25px;
+    font-family: var(--FontRoboto);
+    font-weight: 400;
+    line-height: 55px;
+    margin-bottom: 50px
+}
+
+.Alumno{
+    background: var(--Cafe);
+    border-radius: 100px 0px 0px 100px;
+}
+
+.Maestro{
+    background: var(--Gris-Claro);
+    border-radius: 0px 100px 100px 0px;
+}
+
+.Maestro a,
+.Alumno a{
+    color: #fff;
+}
+
+.Formulario form{
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.Formulario form input{
+    width: 100%;
+    height: 43px;
+    font-size: 1rem;
+    color: var(--Gris);
+    box-shadow: var(--Gris) 0px 3px;
+    outline: none;
+    border: none;
+    margin-bottom: 50px;
+    padding: 0.5rem;
+    background: var(--Blanco);
+}
+
+.Pantalla__Titulo{
+    width: 100%;
+    position: relative;
+    font-family: var(--FontRokkit);
+}
+
+.Pantalla__Titulo img{
+    max-width: 100%;
+}
+
+.Pantalla__Titulo h1{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 30px;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: var(--Blanco);
+}
+
+.Pantalla__Titulo a{
+    position: absolute;
+    bottom: 0;
+    color: var(--Azul-Rey);
+    font-size: 2rem;
+}
+
+.Pantalla__Titulo a span{
+    font-size: 35px;
+}
+
+.close{
+    text-align: right;
+    right: 25px;
+}
+
+.Contenido__Menu{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 50px;
+}
+
+.User{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin: 0 auto;
+}
+
+.User__Img,
+.User__Info{
+    width: 100%;
+    font-family: var(--FontRoboto);
+    color: var(--Azul-Rey);
+}
+
+.User__Img img{
+    max-width: 100%;
+}
+
+.User__Info{
+    padding: 10px;
+}
+
+.User__Info h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.User__Info p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Separador{
+    width: 300px;
+    padding: 4px;
+    margin: 0 auto;
+    background: var(--Gris);
+    border-radius: 50px;
+    margin-top: 15px;
+}
+
+.Menu,
+.Descargar_Marcador{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.Menu ul,
+.Descargar_Marcador ul{
+    list-style: none;
+}
+
+.Menu li{
+    width: 100%;
+    height: 57px;
+    margin-top: 25px;
+}
+
+.Menu li a{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 75% 5%;
+    gap: 5px;
+}
+
+.CirculoNegro{
+    width: 57px;
+    height: 57px;
+    background: var(--Negro);
+    border-radius: 50%;
+}
+
+.Menu__Boton{
+    width: 100%;
+    height: 57px;
+    font-size: 20px;
+    font-family: var(--FontRobotoSlab);
+    font-weight: 400;
+    text-align: center;
+    line-height: 57px;
+    color: #ffffff;
+    background: var(--Naranja);
+    border-radius: 100px;
+}
+
+.Indicador{
+    height: 15px;
+    width: 15px;
+    background: var(--Negro);
+    border-radius: 15px;
+    opacity: 0;
+}
+
+.Indicador.activado{
+    opacity: 1;
+}
+
+.Decoracion{
+    width: 100%;
+    position: absolute;
+    bottom: 96px;
+}
+
+.LineaNaranja{
+    margin: 0 auto;
+    width: 42px;
+    padding: 2.5px;
+    background: var(--Naranja);
+}
+
+.menu{
+    text-align: right;
+    right: 25px;
+}
+
+.back{
+    text-align: left;
+    left: 25px;
+}
+
+.IMG_Modulo{
+    width: 100%;
+    text-align: center;
+}
+
+.ModuloRA{
+    margin-top: 100px;
+}
+
+.ModuloCarga{
+    margin-top: 60px;
+}
+
+.BarraCarga{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 100px;
+}
+
+.BarraCarga h3{
+    font-size: 1.5rem;
+    font-family: var(--FontRoboto);
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Barra{
+    width: 300px;
+    position: absolute;
+    padding: 8px; 
+    background: none;
+    border: 3px solid var(--Gris);
+    border-radius: 50px;
+}
+
+/*Modificar Width*/
+.Relleno{
+    width: 50%;
+    position: absolute;
+    padding: 8px;
+    background: var(--Naranja);
+    border: 3px solid var(--Naranja);
+    border-radius: 50px;
+}
+
+.Descargar_Marcador{
+    margin-top: 10px;
+}
+
+.DPC{
+    text-align: center;
+    font-family: var(--FontRoboto);
+    font-weight: 400;
+    color: var(--Azul-Rey);
+}
+
+.Descargar_Marcador li{
+    width: 100%;
+    height: 44px;
+    margin-top: 16px;
+}
+
+.Descargar_Marcador li a{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 15% 50% 35%;
+    gap: 10px;
+    font-family: var(--FontRoboto);
+}
+
+.Descargar_Marcador li a:hover{
+    opacity: 0.8;
+}
+
+.Vinyeta{
+    width: 44px;
+    height: 44px;
+    background: linear-gradient(45deg, var(--Color-025D90), var(--Color-193F74));
+    border-radius: 44px;
+}
+
+.Pieza{
+    font-size: 19px;
+    line-height: 44px;
+    color:var(--Azul-Rey);
+}
+
+.Fecha{
+    font-size: 14px;
+    line-height: 44px;
+    color:var(--Azul-Rey);
+    opacity: 0.5;
+}
+
+.Paginacion{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.Paginacion ul{
+    display: flex;
+    list-style: none;
+}
+
+.Paginacion ul li{
+    margin: 0 5px;
+    line-height: 33px;
+}
+
+.numero{
+    background: var(--Gris-Claro);
+    color: var(--Negro);
+    padding: 7px 12px;
+    border-radius: 500px;
+    font-family: var(--FontRoboto);
+}
+
+.numero:hover{
+    background: linear-gradient(45deg, var(--Color-2ACDF8), var(--Color-029BD7));
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+.numero.activado{
+    background: linear-gradient(45deg, var(--Color-2ACDF8), var(--Color-029BD7));
+    color: #ffffff;
+}
+
+.previous,
+.next{
+    color: var(--Azul-Rey);
+}
+
+.previous span,
+.next span{
+    font-size: 33px;
+}

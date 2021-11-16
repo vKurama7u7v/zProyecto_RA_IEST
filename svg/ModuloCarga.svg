@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="352" height="352" viewBox="0 0 352 352">
+  <g id="Grupo_149" data-name="Grupo 149" transform="translate(-38 -210)">
+    <g id="Rectángulo_58" data-name="Rectángulo 58" transform="translate(38 210)" fill="none" stroke="#707070" stroke-width="5" stroke-dasharray="40 50">
+      <rect width="352" height="352" stroke="none"/>
+      <rect x="2.5" y="2.5" width="347" height="347" fill="none"/>
+    </g>
+    <g id="Grupo_148" data-name="Grupo 148" transform="translate(-3602.887 -379.969)">
+      <path id="Trazado_145" data-name="Trazado 145" d="M3882.536,682.235c-.867,0-1.726.032-2.577.09a35.522,35.522,0,0,0-56.374-22.3,37.42,37.42,0,0,0-69.779,22.3c-.849-.057-1.7-.089-2.567-.089a37.412,37.412,0,1,0,0,74.823h131.3a37.412,37.412,0,0,0,0-74.823Z" fill="#98d0e3"/>
+      <path id="Trazado_146" data-name="Trazado 146" d="M3882.536,682.235c-.867,0-1.726.032-2.577.09a35.522,35.522,0,0,0-56.374-22.3,37.42,37.42,0,0,0-69.779,22.3c-.849-.057-1.7-.089-2.567-.089a37.412,37.412,0,1,0,0,74.823h131.3a37.412,37.412,0,0,0,0-74.823Z" fill="#ff5900"/>
+      <path id="Trazado_147" data-name="Trazado 147" d="M3816.1,658.786a36.123,36.123,0,0,0-47.092,34.4,36.577,36.577,0,0,0,.192,3.742c-.819-.055-1.644-.086-2.477-.086a36.1,36.1,0,0,0-31.306,54.083c-1.377-16.289,1.087-47.387,40.129-46.626C3775.148,693.658,3777.034,660.319,3816.1,658.786Z" transform="translate(-9.9 -9.457)" fill="#e94e1b"/>
+      <path id="Trazado_148" data-name="Trazado 148" d="M3849.006,851.86h113.207a37.421,37.421,0,0,0,35.239-49.986C3972.853,850.322,3889.655,846.034,3849.006,851.86Z" transform="translate(-79.677 -94.801)" fill="#e94e1b"/>
+      <path id="Trazado_149" data-name="Trazado 149" d="M3886.949,887.3v45.639h42.474V887.3h18.225l-39.463-39.462L3868.724,887.3Z" transform="translate(-91.299 -121.895)" fill="#231f20"/>
+      <path id="Trazado_150" data-name="Trazado 150" d="M3889.06,912.98h62.226l-7.411-7.411c-18.395,2.957-37.062,4.128-52.867,5.463Z" transform="translate(-103.285 -155.921)" fill="#3c3c3b"/>
+      <path id="Trazado_151" data-name="Trazado 151" d="M3877.074,923.618l-8.35,8.35h18.225v45.639h42.475V931.968h18.225l-8.35-8.35Z" transform="translate(-91.299 -166.559)" fill="#231f20"/>
+      <path id="Trazado_152" data-name="Trazado 152" d="M3981.443,943.954s0,31.618-24.464,45.639h24.464Z" transform="translate(-143.318 -178.546)" fill="#3c3c3b"/>
+    </g>
+    <text id="Cargando_tu_archivo" data-name="Cargando tu archivo" transform="translate(214 504.336)" fill="#042f4b" stroke="#042f4b" stroke-width="1" font-size="25" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.075em"><tspan x="-126.989" y="0">Cargando tu archivo</tspan></text>
+  </g>
+</svg>
